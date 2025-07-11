@@ -20,3 +20,9 @@ Move All Maps zip folders e.g.[de_rats_zeusroom.zip and de_rats_final_2.zip] int
 ✅ Step 3: Start the Batch File (extract_merge.bat)
 
 Done
+
+V2 :
+
+- Automatic flattening of cstrike folders: After extracting each archive, the script now checks for any cstrike folders inside the output and moves their contents to the root final_output folder, then deletes the empty cstrike folders.
+
+- Also Supports other Compression format file types : .rar , .7z etc
